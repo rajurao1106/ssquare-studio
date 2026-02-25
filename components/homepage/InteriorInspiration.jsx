@@ -46,10 +46,9 @@ const InteriorInspiration = () => {
             Give your home a new look with these interior design ideas curated for you
           </p>
         </div>
-        <button className="group flex items-center text-[#E3C77A] font-semibold hover:text-rose-700 transition-colors">
-          View All 
-          <span className="ml-2 transform group-hover:translate-x-1 transition-transform">→</span>
-        </button>
+       <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 rounded-full transition-all duration-300 shadow-lg">
+             View All 
+          </button>
       </div>
 
       {/* Grid Layout */}
@@ -70,11 +69,11 @@ const InteriorInspiration = () => {
             />
 
             {/* Label - Styled exactly like the screenshot */}
-            <div className="absolute bottom-5 left-5 z-20">
+            {/* <div className="absolute bottom-5 left-5 z-20">
               <span className="bg-black/70 backdrop-blur-md text-white text-[11px] uppercase tracking-wider px-3 py-1.5 rounded font-bold border border-white/10">
                 {item.title}
               </span>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
