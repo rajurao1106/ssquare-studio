@@ -6,28 +6,28 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const services = [
   {
     step: "1",
-    title: "Custom Lighting Design",
+    title: "Residential Interior Solutions",
     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200", 
   },
   {
     step: "2",
-    title: "Sculptural Lighting",
+    title: "Commercial & Office Interiors",
     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
   },
-  {
-    step: "3",
-    title: "Design Consultation",
-    desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200",
-  },
-  {
-    step: "4",
-    title: "Process Lights",
-    desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
-  },
+//   {
+//     step: "3",
+//     title: "Design Consultation",
+//     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+//     image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200",
+//   },
+//   {
+//     step: "4",
+//     title: "Process Lights",
+//     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+//     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
+//   },
 ];
 
 const ServiceCard = ({ service, index, progress, range, targetScale, isMobile }) => {
