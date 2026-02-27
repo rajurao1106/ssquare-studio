@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="py-14 px-8 flex justify-center items-center">
+    <div className="py-14 px-8 pt-24 flex justify-center items-center">
       <div className=" relative w-full max-w-7xl rounded-2xl overflow-hidden ">
         <button className="absolute left-0 bottom-0 bg-[#8FAF9A] text-white py-4 rounded-lg px-20 ">
           Contact Us
