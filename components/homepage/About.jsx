@@ -9,20 +9,21 @@ const About = () => {
   ];
 
   const gallery = [
-
     {
       title: "Master Bedroom",
-      span: "md:col-span-1 md:row-span-1",
+      // Mobile pe 1 col, Desktop pe 1 col
+      span: "col-span-1 row-span-1", 
       img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400",
     },
     {
       title: "False Ceiling",
-      span: "md:col-span-1 md:row-span-2",
+      // Mobile aur Desktop dono par 2 rows cover karega
+      span: "col-span-1 row-span-2",
       img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400",
     },
     {
       title: "Modular Kitchen",
-      span: "md:col-span-1 md:row-span-1",
+      span: "col-span-1 row-span-1",
       img: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=400",
     },
   ];
@@ -30,7 +31,22 @@ const About = () => {
   return (
     <div className="min-h-screen p-8 md:p-16 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        {/* Left Side: About & Stats (Inspired by image_24975d.png) */}
+        <div className="lg:col-span-7 grid grid-cols-2 gap-4 h-[400px] md:h-[600px]">
+          {gallery.map((item, idx) => (
+            <div
+              key={idx}
+              className={`relative group overflow-hidden rounded-3xl bg-stone-900 ${item.span}`}
+            >
+              <img
+                src={item.img}
+                alt={item.title}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80"
+              />
+            </div>
+          ))}
+        </div>
+        
+        {/* Left Side: About & Stats */}
         <div className="lg:col-span-5 space-y-8">
           <div className="space-y-4">
             <span className="text-gray-400 text-sm tracking-widest uppercase">
@@ -46,7 +62,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Stats Grid */}
           <div className="grid grid-cols-2 gap-8 py-6">
             {stats.map((stat, i) => (
               <div key={i} className="space-y-1">
@@ -65,29 +80,12 @@ const About = () => {
           </button>
         </div>
 
-        {/* Right Side: Masonry Gallery (Inspired by image_250c3d.jpg) */}
-        <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {gallery.map((item, idx) => (
-            <div
-              key={idx}
-              className={`relative group overflow-hidden rounded-3xl bg-stone-900 ${item.span}`}
-            >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80"
-              />
-              {/* <div className="absolute bottom-4 left-4">
-                <span className="bg-black/60 backdrop-blur-md text-[10px] uppercase tracking-widest text-white px-3 py-1 rounded">
-                  {item.title}
-                </span>
-              </div> */}
-            </div>
-          ))}
-        </div>
+        {/* Right Side: Masonry Gallery (Fixed for Mobile) */}
+        {/* Yahan grid-cols-2 kiya hai taaki mobile pe bhi 2 side-by-side dikhe */}
+        
       </div>
     </div>
   );
 };
 
-export default About;
+export default About;   
