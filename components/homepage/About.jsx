@@ -29,8 +29,8 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen p-8 md:p-16 font-sans">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <div className="min-h-screen p-4 md:p-10 font-sans">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 max-lg:gap-8 items-center">
         <div className="lg:col-span-6 grid grid-cols-2 gap-2 h-[400px] md:h-[500px]">
           {gallery.map((item, idx) => (
             <div
@@ -47,7 +47,7 @@ const About = () => {
         </div>
 
         {/* Left Side: About & Stats */}
-        <div className="lg:col-span-5 space-y-8">
+        <div className="lg:col-span-5 space-y-8 px-2">
           <div className="space-y-4">
             <span className="text-gray-400 text-sm tracking-widest uppercase">
               About Us
