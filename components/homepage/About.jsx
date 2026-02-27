@@ -31,11 +31,11 @@ const About = () => {
   return (
     <div className="min-h-screen p-8 md:p-16 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div className="lg:col-span-7 grid grid-cols-2 gap-4 h-[400px] md:h-[600px]">
+        <div className="lg:col-span-6 grid grid-cols-2 gap-2 h-[400px] md:h-[500px]">
           {gallery.map((item, idx) => (
             <div
               key={idx}
-              className={`relative group overflow-hidden rounded-3xl bg-stone-900 ${item.span}`}
+              className={`relative group overflow-hidden rounded-xl bg-stone-900 ${item.span}`}
             >
               <img
                 src={item.img}
@@ -45,7 +45,7 @@ const About = () => {
             </div>
           ))}
         </div>
-        
+
         {/* Left Side: About & Stats */}
         <div className="lg:col-span-5 space-y-8">
           <div className="space-y-4">
