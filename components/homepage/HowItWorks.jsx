@@ -7,15 +7,15 @@ const steps = [
       title: 'Match with one of our talented designers and get inspired.',
       description: 'Take a style quiz to help us get to know you a little bit better, then choose your interior designer from our personalized recommendations. With over 10 years of experience and nearly 1 million designs, our expert team will help you turn your vision into reality.',
       images: (
-        <div className="grid grid-cols-[1.5fr_1fr] gap-3  h-[250px] w-[440px]">
+        <div className="grid grid-cols-[1.5fr_1fr] gap-2  h-[250px] w-[440px]">
           <div className="rounded-l-2xl overflow-hidden shadow-sm">
             <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Living room" className="w-full h-full object-cover" />
           </div>
-          <div className="grid grid-rows-2 gap-3">
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+          <div className="grid grid-rows-2 gap-2">
+            <div className="rounded-tr-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+            <div className="rounded-br-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -27,15 +27,15 @@ const steps = [
       title: 'Partner with your designer to create a home you love.',
       description: "Great design doesn't happen alone. Let your designer guide you to solutions that meet your functional needs and products that suit your unique style. See it come to life with a 3D rendering of the design in your actual space.",
       images: (
-         <div className="grid grid-cols-[1.5fr_1fr] gap-3 h-[250px] w-[450px]">
+         <div className="grid grid-cols-[1.5fr_1fr] gap-2 h-[250px] w-[450px]">
           <div className="rounded-l-2xl overflow-hidden shadow-sm">
             <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Living room" className="w-full h-full object-cover" />
           </div>
-          <div className="grid grid-rows-2 gap-3">
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+          <div className="grid grid-rows-2 gap-2">
+            <div className="rounded-tr-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+            <div className="rounded-br-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
@@ -47,15 +47,15 @@ const steps = [
       title: 'Shop exclusive deals, and bring your design home with ease.',
       description: 'Access the best prices on your favorite home brands, get exclusive discounts, and shop everything you need for your space in a single, streamlined checkout. The result? Even better than your dreams.',
       images: (
-         <div className="grid grid-cols-[1.5fr_1fr] gap-3 h-[250px] w-[450px]">
+         <div className="grid grid-cols-[1.5fr_1fr] gap-2 h-[250px] w-[450px]">
           <div className="rounded-l-2xl overflow-hidden shadow-sm">
             <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Living room" className="w-full h-full object-cover" />
           </div>
-          <div className="grid grid-rows-2 gap-3">
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+          <div className="grid grid-rows-2 gap-2">
+            <div className="rounded-tr-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-r-2xl overflow-hidden shadow-sm">
+            <div className="rounded-br-2xl overflow-hidden shadow-sm">
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
