@@ -33,7 +33,7 @@ export default function Hero() {
 
               <p className="mt-4 max-w-xl text-gray-200 text-base md:text-lg">
                 We transform visions into timeless architecture, blending
-                innovative design with functional excellence.
+                innovative design with functional excellence
               </p>
 
               {/* <button className=" absolute bottom-0 left-0 rounded-tr-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition hover:bg-gray-200">
