@@ -12,18 +12,18 @@ const About = () => {
     {
       title: "Master Bedroom",
       // Mobile pe 1 col, Desktop pe 1 col
-      span: "col-span-1 row-span-1 rounded-tl-xl", 
+      span: "col-span-1 row-span-1 rounded-tl-2xl", 
       img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400",
     },
     {
       title: "False Ceiling",
       // Mobile aur Desktop dono par 2 rows cover karega
-      span: "col-span-1 row-span-2 rounded-r-xl",
+      span: "col-span-1 row-span-2 rounded-r-2xl",
       img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400",
     },
     {
       title: "Modular Kitchen",
-      span: "col-span-1 row-span-1 rounded-bl-xl",
+      span: "col-span-1 row-span-1 rounded-bl-2xl",
       img: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=400",
     },
   ];
