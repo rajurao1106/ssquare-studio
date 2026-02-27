@@ -39,7 +39,7 @@ const ServiceCard = ({ service, index, progress, range, targetScale, isMobile })
           // Mobile par 'top' margin thoda kam rakha hai (20px vs 35px)
           top: `calc(10% + ${index * (isMobile ? 20 : 35)}px)`,
         }}
-        className="relative w-full max-w-6xl bg-white rounded-xl md:rounded-4xl shadow-2xl overflow-hidden flex flex-col md:flex-row min-h-[500px] md:min-h-[550px] border border-gray-100"
+        className="relative w-full max-w-6xl bg-white rounded-3xl md:rounded-4xl shadow-2xl overflow-hidden flex flex-col md:flex-row min-h-[500px] md:min-h-[550px] border border-gray-100"
       >
         {/* Right Section (Image): Mobile par pehle dikhane ke liye order-1 */}
         <div className="flex-1 relative h-48 md:h-auto overflow-hidden order-1 md:order-2">
