@@ -16,7 +16,7 @@ const steps = [
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-r-2xl overflow-hidden shadow-sm">
-              <img src="https://images.unsplash.com/photo-1505693357370-58c35b544e8f?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const steps = [
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-r-2xl overflow-hidden shadow-sm">
-              <img src="https://images.unsplash.com/photo-1505693357370-58c35b544e8f?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const steps = [
               <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Bed detail" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-r-2xl overflow-hidden shadow-sm">
-              <img src="https://images.unsplash.com/photo-1505693357370-58c35b544e8f?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Textiles" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
