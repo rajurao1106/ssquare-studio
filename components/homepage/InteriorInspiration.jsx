@@ -44,8 +44,8 @@ const InteriorInspiration = () => {
       {/* Header Section */}
       <div className="flex flex-col px-8 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
         <div>
-          <h2 className="text-5xl font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-tight">
-            Inspiration for home <br /> interior designs
+          <h2 className="text-5xl max-lg:text-4xl  font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-tight">
+            Inspiration for home <br className="hidden lg:block"/> interior designs
           </h2>
           <p className="text-gray-500 text-lg mt-1 font-light">
             Give your home a new look with these interior design ideas curated for you
