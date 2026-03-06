@@ -28,9 +28,8 @@ export default function Navbar() {
       <div
         className={`max-w-4xl mx-auto mt-5 bg-white/20 backdrop-blur-xl border ${isOpen ? "max-lg:rounded-xl rounded-full" : "rounded-full"} border-white/20  shadow-lg overflow-hidden`}
       >
-        <div className="px-6 py-2 flex items-center  justify-between">
+        <div className="px-6 py-2 flex items-center justify-between">
           {/* Logo */}
-
 
             {/* Mobile / Tablet – NAME (wide) */}
             <div className="relative  h-10 w-28">

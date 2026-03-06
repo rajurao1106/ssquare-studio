@@ -80,7 +80,7 @@ const steps = [
 
             {/* Content Column */}
             <div className="md:col-span-5 ">
-              <h3 className="text-3xl md:text-4xl font-serif mb-6 text-gray-900">
+              <h3 className="text-3xl font-[Bodoni_Moda] md:text-4xl mb-6 text-gray-900">
                 {step.title}
               </h3>
               <p className="text-gray-600 font-sans text-base">

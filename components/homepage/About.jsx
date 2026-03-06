@@ -12,7 +12,7 @@ const About = () => {
     {
       title: "Master Bedroom",
       // Mobile pe 1 col, Desktop pe 1 col
-      span: "col-span-1 row-span-1 rounded-tl-2xl", 
+      span: "col-span-1 row-span-1 rounded-tl-2xl",
       img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400",
     },
     {
@@ -31,19 +31,21 @@ const About = () => {
   return (
     <div className="min-h-screen p-4 md:p-10 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 max-lg:gap-8 items-center">
-        <div className="lg:col-span-6 grid grid-cols-2 gap-2 h-[400px] md:h-[500px]">
-          {gallery.map((item, idx) => (
-            <div
-              key={idx}
-              className={`relative group overflow-hidden bg-stone-900 ${item.span}`}
-            >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80"
-              />
-            </div>
-          ))}
+        <div className="lg:col-span-6 grid grid-cols-1 gap-2 h-[400px] md:h-[500px]">
+          <div className={`relative group overflow-hidden flex justify-between `}>
+            <h1 className=" relative py-10  font-light tracking-widest items-end ">
+              <p className="absolute text-6xl font-bold font-[Bodoni_Moda] text-[#E3C77A]">Interior designs</p>
+              <p className="[writing-mode:vertical-lr] text-xs h-[110%] text-right py-10">
+              
+                https://www.ssquarestudio.com
+              </p>
+            </h1>
+            <img
+              src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=400"
+              alt={""}
+              className="w-full h-full object-cover transition-transform duration-700 "
+            />
+          </div>
         </div>
 
         {/* Left Side: About & Stats */}
@@ -52,9 +54,9 @@ const About = () => {
             <span className="text-gray-400 text-sm tracking-widest uppercase">
               About Us
             </span>
-            <h1 className="text-4xl md:text-5xl font-serif leading-tight">
-              Inspiration for home <br />
-              <span className="text-[#E3C77A]">interior designs</span>
+            <h1 className="text-4xl font-[Bodoni_Moda] md:text-5xl leading-tight">
+              <span className="font-bold">Inspiration for beautiful </span>{" "}<br/>
+              <span className="text-[#E3C77A] italic">  interior designs</span>
             </h1>
             <p className="text-gray-400 leading-relaxed max-w-md">
               Give your home a new look with these interior design ideas curated
@@ -62,7 +64,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 py-6">
+          <div className="grid grid-cols-2 gap-2 ">
             {stats.map((stat, i) => (
               <div key={i} className="space-y-1">
                 <p className="text-3xl font-light text-[#E3C77A]">
@@ -75,17 +77,16 @@ const About = () => {
             ))}
           </div>
 
-          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 rounded-full transition-all duration-300 shadow-lg">
+          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3  transition-all duration-300 shadow-lg">
             Know More
           </button>
         </div>
 
         {/* Right Side: Masonry Gallery (Fixed for Mobile) */}
         {/* Yahan grid-cols-2 kiya hai taaki mobile pe bhi 2 side-by-side dikhe */}
-        
       </div>
     </div>
   );
 };
 
-export default About;   
+export default About;

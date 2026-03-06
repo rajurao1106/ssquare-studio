@@ -1,26 +1,47 @@
 import React from "react";
-import cta from "@/public/cta.png";
+import cta2 from "@/public/homepage/cta2.jpg";
 import Image from "next/image";
 
 export default function CTA() {
   return (
-    <div className="max-w-7xl mx-auto px-6 md:px-16 py-12 border-b border-gray-100">
-      <div className="flex flex-col lg:flex-row  rounded-3xl bg-[#f7f6f7] max-lg:py-10 items-center justify-between gap-12">
-        <div className="max-w-md space-y-6 pl-10">
-          <h2 className="text-3xl font-bold  text-gray-900 leading-tight">
-            Stay inspired with our weekly updates
-          </h2>
-          {/* The Green Button Style from the image */}
-          <button className="bg-[#8FAF9A] text-white px-8 py-3 rounded-full font-medium hover:bg-[#a6b391] transition-colors">
-            Explore More
-          </button>
+    <section className="relative h-[80vh] md:h-screen w-full overflow-hidden">
+      {/* Background Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 h-full w-full relative">
+        {/* Overlay - Moved inside the grid to cover everything */}
+        <div className="bg-black/40 absolute inset-0 z-10" />
+
+        {/* Image 1: Hidden on mobile, or you can keep both stacked */}
+        <div className="relative h-full w-full">
+          <img
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200"
+            className="w-full h-full object-cover"
+            alt="Interior design 1"
+          />
         </div>
 
-        {/* Image Grid Representation */}
-        <div className="w-[40rem] max-lg:w-[20rem] h-[18rem] max-lg:h-[10rem] ">
-          <Image src={cta} alt="Interior" className="" />
+        {/* Image 2 */}
+        <div className="relative h-full w-full">
+          <Image
+            width={1000}
+            height={1000}
+            priority
+            src={cta2}
+            className="w-full h-full object-cover"
+            alt="Interior design 2"
+          />
+        </div>
+
+        {/* Floating Content */}
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
+            Stay inspired with our <br className="hidden md:block" /> weekly updates
+          </h1>
+          
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-10 py-4 transition-all duration-300 shadow-xl text-sm md:text-lg font-medium uppercase tracking-wider">
+            Contact Us
+          </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

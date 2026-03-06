@@ -16,12 +16,12 @@ const services = [
     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
   },
-  // {
-  //   step: "3",
-  //   title: "Design Consultation",
-  //   desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200",
-  // },
+  {
+    step: "03",
+    title: "Interior Design & 3D Visualization",
+    desc: "Not sure where to start? Our experts provide professional guidance to kickstart your renovation journey.",
+    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200",
+  },
 ];
 
 const ServiceCard = ({ service, index, progress, range, targetScale, isMobile }) => {
@@ -56,7 +56,7 @@ const ServiceCard = ({ service, index, progress, range, targetScale, isMobile })
             {service.step}
           </span>
           
-          <h3 className="text-xl md:text-4xl font-semibold text-[#333] leading-tight mb-4">
+          <h3 className="text-xl font-[Bodoni_Moda]  md:text-4xl font-semibold text-[#333] leading-tight mb-4">
             {service.title}
           </h3>
 
@@ -64,7 +64,7 @@ const ServiceCard = ({ service, index, progress, range, targetScale, isMobile })
             {service.desc}
           </p>
           
-          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 rounded-full transition-all duration-300 shadow-lg text-sm md:text-base">
+          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 transition-all duration-300 shadow-lg text-sm md:text-base">
             Know More
           </button>
         </div>
@@ -93,8 +93,8 @@ export default function ServicesStackSection() {
     <div ref={container} className="relative bg-[#F8F6F3]">
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
-        <h2 className="text-3xl md:text-6xl font-light text-[#2D2D2D] leading-tight">
-          How We <span className="text-[#E3C77A] italic">Simplify</span> Your <br /> 
+        <h2 className="text-4xl font-[Bodoni_Moda] md:text-6xl font-bold text-[#2D2D2D] leading-tight">
+          How We <span className="text-[#E3C77A] italic">Simplify</span> Your <br className="hidden lg:block" /> 
           Enlightment Experience
         </h2>
       </div>

@@ -1,18 +1,21 @@
 import Image from "next/image";
 import React from "react";
+import { Bodoni_Moda } from "next/font/google";
+
+const bodoni = Bodoni_Moda({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-bodoni",
+});
 
 export default function Hero() {
   return (
-    <div className="py-14 px-8 max-lg:px-4 pt-24 flex justify-center items-center">
-      <div className=" relative w-full max-w-7xl rounded-2xl overflow-hidden ">
-        <button className="absolute left-0 bottom-0 bg-[#8FAF9A] text-white py-4 rounded-lg px-20 max-lg:px-[55px] ">
+    <div className=" flex justify-center items-center">
+      <div className=" relative w-full overflow-hidden ">
+        {/* <button className="absolute left-0 bottom-0 bg-[#8FAF9A] text-white py-4 rounded-lg px-20 max-lg:px-[55px] ">
           Contact Us
-        </button>
-        <section
-          className="
-        [clip-path:path('M_0,0_L_1280,0_L_1280,450_A_10,10_0,0,1_1270,460_L_250,460_A_10,10_0,0,1_240,450_L_240,410_A_10,10_0,0,0_230,400_L_10,400_A_10,10_0,0,1_0,390_Z')]
-        max-lg:[clip-path:path('M_0,0_L_1280,0_L_1280,450_A_10,10_0,0,1_1270,460_L_200,460_A_10,10_0,0,1_193,450_L_193,410_A-10,10_0,0,0_183,400_L_10,400_A_10,10_0,0,1_0,390_Z')]"
-        >
+        </button> */}
+        <section className="h-screen">
           <Image
             src="https://media.designcafe.com/wp-content/uploads/2021/07/12180311/interior-designers-hyderabad.jpg"
             alt="Modern Architecture"
@@ -22,17 +25,17 @@ export default function Hero() {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/45" />
+          <div className="absolute inset-0 bg-black/60" />
 
           {/* Content */}
-          <div className="relative z-10 flex h-[460px] items-center">
-            <div className=" max-w-3xl px-6 md:px-16">
-              <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
-                Designing Spaces <br />
-                That Inspire & Endure
+          <div className="relative z-10 flex h-screen justify-center items-center">
+            <div className=" max-w-4xl flex justify-center items-center flex-col text-center px-6 md:px-16">
+              <h1 className="text-4xl  md:text-7xl font-[Bodoni_Moda] text-white leading-tight">
+                Designing Spaces <br/>
+                That <span className="italic text-[#E3C77A]">Inspire & Endure</span>
               </h1>
 
-              <p className="mt-4 max-w-xl text-gray-200 text-base md:text-lg">
+              <p className="mt-4 max-w-xl  text-white text-base md:text-lg">
                 We transform visions into timeless architecture, blending
                 innovative design with functional excellence.
               </p>
