@@ -20,7 +20,7 @@ const services = [
     step: "03",
     title: "Interior Design & 3D Visualization",
     desc: "Not sure where to start? Our experts provide professional guidance to kickstart your renovation journey.",
-    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
   },
 ];
 
