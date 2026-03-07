@@ -33,10 +33,14 @@ export default function CTA() {
 
         {/* Floating Content */}
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
-            Stay inspired with our <br className="hidden md:block" /> weekly updates
+          <h1 className="text-3xl md:text-5xl font-bold max-lg:font-extrabold mb-4 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
+            Stay inspired with our <br className="hidden md:block" /> weekly
+            updates
           </h1>
-          
+          <p className="mb-4 max-w-xl text-white max-lg:text-sm">
+            Discover fresh ideas, design trends, and expert tips every week to
+            keep your creativity flowing and your projects inspired.
+          </p>
           <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 max-lg:px-4 py-4 max-lg:py-3 transition-all duration-300 shadow-xl text-sm md:text-base font-medium uppercase tracking-wider">
             Contact Us
           </button>

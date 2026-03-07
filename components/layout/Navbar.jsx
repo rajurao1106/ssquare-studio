@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed z-50 top-0 left-0 px-4">
       <div
-        className={`max-w-4xl mx-auto mt-5 bg-white/20 backdrop-blur-xl border ${isOpen ? "max-lg:rounded-xl rounded-full" : "rounded-full"} border-white/20  shadow-lg overflow-hidden`}
+        className={`max-w-4xl mx-auto mt-5 bg-white/30 backdrop-blur-xl border ${isOpen ? "max-lg:rounded-xl rounded-full" : "rounded-full"} border-white/20  shadow-lg overflow-hidden`}
       >
         <div className="px-6 py-2 flex items-center justify-between">
           {/* Logo */}
