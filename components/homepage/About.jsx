@@ -29,7 +29,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen p-4 md:p-10 font-sans">
+    <div className="min-h-screen p-4 md:p-10 bg-[#F6F6F4] font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 max-lg:gap-8 items-center">
         <div className="lg:col-span-6 grid grid-cols-1 gap-2 h-[400px] md:h-[500px]">
           <div className={`relative group overflow-hidden flex justify-between `}>

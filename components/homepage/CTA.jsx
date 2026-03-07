@@ -1,5 +1,5 @@
 import React from "react";
-import cta2 from "@/public/homepage/cta2.jpg";
+import cta2 from "@/public/homepage/cta4.jpg";
 import Image from "next/image";
 
 export default function CTA() {
@@ -33,11 +33,11 @@ export default function CTA() {
 
         {/* Floating Content */}
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6">
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
+          <h1 className="text-3xl md:text-5xl  font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
             Stay inspired with our <br className="hidden md:block" /> weekly updates
           </h1>
           
-          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-10 py-4 transition-all duration-300 shadow-xl text-sm md:text-lg font-medium uppercase tracking-wider">
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-4 transition-all duration-300 shadow-xl text-sm md:text-base font-medium uppercase tracking-wider">
             Contact Us
           </button>
         </div>

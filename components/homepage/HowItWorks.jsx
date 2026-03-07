@@ -65,7 +65,8 @@ const steps = [
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-30 ">
+    <div className='bg-[#F6F6F4] w-full'>
+      <section className="max-w-6xl mx-auto px-6 py-30 ">
       <h2 className="text-center text-xl max-lg:text-base tracking-widest uppercase mb-16 font-sans ">
         How Ssquare studio Works
       </h2>
@@ -96,6 +97,7 @@ const steps = [
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

@@ -90,7 +90,7 @@ export default function ServicesStackSection() {
   });
 
   return (
-    <div ref={container} className="relative bg-[#F8F6F3]">
+    <div ref={container} className="relative ">
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
         <h2 className="text-4xl font-[Bodoni_Moda] md:text-6xl font-bold text-[#2D2D2D] leading-tight">

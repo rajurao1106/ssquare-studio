@@ -40,7 +40,7 @@ const InteriorInspiration = () => {
   ];
 
   return (
-    <section className="py-12 bg-white relative">
+    <section className="py-12 bg-[#F6F6F4] relative">
       {/* Header Section */}
       <div className="flex flex-col px-8 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
         <div>
