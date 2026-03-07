@@ -64,7 +64,7 @@ const ServiceCard = ({ service, index, progress, range, targetScale, isMobile })
             {service.desc}
           </p>
           
-          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 transition-all duration-300 shadow-lg text-sm md:text-base">
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3 transition-all duration-300 shadow-lg text-sm md:text-base">
             Know More
           </button>
         </div>

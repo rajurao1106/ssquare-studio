@@ -51,7 +51,7 @@ const InteriorInspiration = () => {
             Give your home a new look with these interior design ideas curated for you
           </p>
         </div>
-        <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3 transition-all duration-300 shadow-lg">
+        <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3 transition-all duration-300 shadow-lg">
           View All
         </button>
       </div>

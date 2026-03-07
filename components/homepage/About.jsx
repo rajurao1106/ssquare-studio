@@ -29,7 +29,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen p-4 md:p-10 bg-[#F6F6F4] font-sans">
+    <div className=" p-4 py-20 bg-[#F6F6F4] font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 max-lg:gap-8 items-center">
         <div className="lg:col-span-6 grid grid-cols-1 gap-2 h-[400px] md:h-[500px]">
           <div className={`relative group overflow-hidden flex justify-between `}>
@@ -77,7 +77,7 @@ const About = () => {
             ))}
           </div>
 
-          <button className="bg-[#8FAF9A] hover:bg-teal-700 text-white px-8 py-3  transition-all duration-300 shadow-lg">
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3  transition-all duration-300 shadow-lg">
             Know More
           </button>
         </div>
