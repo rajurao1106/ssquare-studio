@@ -40,7 +40,7 @@ const InteriorInspiration = () => {
   ];
 
   return (
-    <section className="py-12 bg-[#F6F6F4] relative">
+    <section className="bg-[#F6F6F4] relative">
       {/* Header Section */}
       <div className="flex flex-col px-8 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
         <div>
@@ -57,12 +57,12 @@ const InteriorInspiration = () => {
       </div>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="grid grid-cols-1 h-screen md:grid-cols-4">
         {designs.map((item, index) => (
           <div
             key={index}
             onClick={() => setSelectedImage(item.image)} // Set image on click
-            className={`group relative overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer ${item.size}`}
+            className={`group relative overflow-hidden h-full shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer ${item.size}`}
           >
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent z-10 opacity-60 group-hover:opacity-80 transition-opacity" />
             <img

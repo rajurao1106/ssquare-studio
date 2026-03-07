@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function CTA() {
   return (
-    <section className="relative h-[80vh] md:h-screen w-full overflow-hidden">
+    <section className="relative h-[80vh] md:h-screen w-full ">
       {/* Background Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 h-full w-full relative">
         {/* Overlay - Moved inside the grid to cover everything */}
@@ -33,7 +33,7 @@ export default function CTA() {
 
         {/* Floating Content */}
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6">
-          <h1 className="text-3xl md:text-5xl  font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10 text-white font-[Bodoni_Moda] max-w-4xl leading-tight">
             Stay inspired with our <br className="hidden md:block" /> weekly updates
           </h1>
           
