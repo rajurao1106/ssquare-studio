@@ -13,8 +13,9 @@ export default function page() {
       <Hero />
       <About/>
       <ServicesStackSection/>
-      <HowItWorks/>
       <InteriorInspiration/>
+      <HowItWorks/>
+      
       <CTA/>
     </main>
   );
