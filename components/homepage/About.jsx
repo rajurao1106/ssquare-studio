@@ -34,8 +34,8 @@ const About = () => {
         <div className="lg:col-span-6 grid grid-cols-1 gap-2 h-[400px] md:h-[500px]">
           <div className={`relative group overflow-hidden flex justify-between `}>
             <h1 className=" relative py-10  font-light tracking-widest items-end ">
-              <p className="absolute text-6xl font-bold font-[Bodoni_Moda] text-[#E3C77A]">Interior designs</p>
-              <p className="[writing-mode:vertical-lr] text-xs h-[110%] text-right py-10">
+              <p className="absolute text-6xl max-lg:text-5xl font-bold font-[Bodoni_Moda] text-[#E3C77A]">Interior designs</p>
+              <p className="[writing-mode:vertical-lr] text-xs max-lg:text-[8px] h-[110%] text-right py-10 max-lg:py-8">
               
                 https://www.ssquarestudio.com
               </p>
@@ -54,8 +54,8 @@ const About = () => {
             <span className="text-gray-400 text-sm tracking-widest uppercase">
               About Us
             </span>
-            <h1 className="text-4xl font-[Bodoni_Moda] md:text-5xl leading-tight">
-              <span className="font-bold">Inspiration for beautiful </span>{" "}<br/>
+            <h1 className="text-4xl font-[Bodoni_Moda] font-bold md:text-5xl leading-tight">
+              <span className="">Inspiration for beautiful </span>{" "}<br/>
               <span className="text-[#E3C77A] italic">  interior designs</span>
             </h1>
             <p className="text-gray-400 leading-relaxed max-w-md">

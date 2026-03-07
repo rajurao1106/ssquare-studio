@@ -42,12 +42,12 @@ const InteriorInspiration = () => {
   return (
     <section className="pt-24 relative">
       {/* Header Section */}
-      <div className="flex flex-col px-8 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
+      <div className="flex flex-col px-8 max-lg:px-4 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
         <div>
-          <h2 className="text-5xl max-lg:text-4xl  font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-5xl max-lg:text-4xl mb-4 font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-tight">
             Inspiration for home <br className="hidden lg:block"/> interior designs
           </h2>
-          <p className="text-gray-500 text-lg mt-1 font-light">
+          <p className="text-gray-500 text-base mb-4 font-light">
             Give your home a new look with these interior design ideas curated for you
           </p>
         </div>
@@ -57,7 +57,7 @@ const InteriorInspiration = () => {
       </div>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 h-screen md:grid-cols-4">
+      <div className="grid grid-cols-1 h-screen max-lg:h-[150vh] max-lg:gap-1 md:grid-cols-4">
         {designs.map((item, index) => (
           <div
             key={index}
@@ -78,7 +78,7 @@ const InteriorInspiration = () => {
       {/* --- Lightbox Modal --- */}
       {selectedImage && (
         <div 
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 p-4 transition-all"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4 transition-all"
           onClick={() => setSelectedImage(null)} // Close when clicking background
         >
           {/* Close Button */}

@@ -56,7 +56,7 @@ const ServiceCard = ({ service, index, progress, range, targetScale, isMobile })
             {service.step}
           </span>
           
-          <h3 className="text-xl font-[Bodoni_Moda]  md:text-4xl font-semibold text-[#333] leading-tight mb-4">
+          <h3 className="text-xl font-[Bodoni_Moda]  md:text-4xl font-bold text-[#333] leading-tight mb-4">
             {service.title}
           </h3>
 

@@ -29,8 +29,8 @@ export default function Hero() {
 
           {/* Content */}
           <div className="relative z-10 flex h-screen justify-center items-center">
-            <div className=" max-w-4xl flex justify-center items-center flex-col text-center px-6 md:px-16">
-              <h1 className="text-4xl  md:text-7xl font-[Bodoni_Moda] text-white leading-tight">
+            <div className=" max-w-5xl flex justify-center items-center flex-col text-center px-6 md:px-16">
+              <h1 className="text-4xl font-bold md:text-7xl font-[Bodoni_Moda] text-white leading-tight">
                 Designing Spaces <br/>
                 That <span className="italic text-[#E3C77A]">Inspire & Endure</span>
               </h1>

@@ -37,7 +37,7 @@ export default function CTA() {
             Stay inspired with our <br className="hidden md:block" /> weekly updates
           </h1>
           
-          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-4 transition-all duration-300 shadow-xl text-sm md:text-base font-medium uppercase tracking-wider">
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 max-lg:px-4 py-4 max-lg:py-3 transition-all duration-300 shadow-xl text-sm md:text-base font-medium uppercase tracking-wider">
             Contact Us
           </button>
         </div>
