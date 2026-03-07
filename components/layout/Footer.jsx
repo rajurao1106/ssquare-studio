@@ -83,7 +83,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-[10px] tracking-widest uppercase text-gray-500">
-        <p>© 2023 SSQUARE STUDIO. All Rights Reserved.</p>
+        <p>© 2026 SSQUARE STUDIO. All Rights Reserved.</p>
         <div className="flex gap-4 mt-4 md:mt-0">
           <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
           <span>|</span>
