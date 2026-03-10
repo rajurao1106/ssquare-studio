@@ -2,7 +2,7 @@ import React from "react";
 import about from "@/public/homepage/about.jpg";
 import Image from "next/image";
 
-const About = () => {
+const About1 = () => {
   const stats = [
     { label: "Happy Clients", value: "255+" },
     { label: "Projects Done", value: "255+" },
@@ -59,12 +59,17 @@ const About = () => {
         {/* Left Side: About & Stats */}
         <div className="lg:col-span-5 space-y-8 px-2">
           <div className="space-y-4">
-            <span className="text-gray-400 text-sm tracking-widest uppercase">
+            {/* <span className="text-gray-400 text-sm tracking-widest uppercase">
               About Us
-            </span>
-            <h1 className="text-4xl font-[Bodoni_Moda] font-bold md:text-5xl leading-tight">
-              Inspiration for beautiful
-              <p className="italic text-[#E3C77A]"> interior designs</p>
+            </span> */}
+            <h1 className="text-4xl font-[Bodoni_Moda] font-bold md:text-6xl leading-tight">
+              <p className="text-right">Creative Vision </p>
+              <p className="text-right">
+                {" "}
+                <p className="italic text-[#E3C77A]"> Thoughtful </p>
+                {/* <p className="right-60 relative">Meets</p> */}
+              </p>
+              <p className="max-lg:text-center"> Mordern Design</p>
             </h1>
             <p className="text-gray-400 leading-relaxed max-w-md">
               Give your home a new look with these interior design ideas curated
@@ -97,4 +102,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About1;
