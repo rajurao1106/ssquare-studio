@@ -3,6 +3,8 @@ import React from "react";
 import { Bodoni_Moda } from "next/font/google";
 import hero1 from "@/public/homepage/hero3.jpg";
 import hero35 from "@/public/homepage/hero3.5.png";
+import hero1_copy from "@/public/homepage/hero3_Copy.jpg";
+import hero35_copy from "@/public/homepage/hero3.5_Copy.png";
 
 const bodoni = Bodoni_Moda({
   subsets: ["latin"],
@@ -23,14 +25,28 @@ export default function Hero1() {
             alt="Modern Architecture"
             fill
             priority
-            className="object-cover"
+            className="object-cover max-lg:hidden"
           />
           <Image
             src={hero35}
             alt="Modern Architecture"
             fill
             priority
-            className="object-cover z-20"
+            className="object-cover max-lg:hidden z-50"
+          />
+           <Image
+            src={hero1_copy}
+            alt="Modern Architecture"
+            fill
+            priority
+            className="object-cover hidden max-lg:block"
+          />
+          <Image
+            src={hero35_copy}
+            alt="Modern Architecture"
+            fill
+            priority
+            className="object-cover hidden max-lg:block z-20"
           />
 
           {/* Overlay */}
@@ -47,7 +63,14 @@ export default function Hero1() {
                 </span>
               </h1>
 
-              <div className="absolute backdrop-blur-md z-50 bg-white/20 py-5 pl-8 pb-5 right-5 bottom-5 rounded-lg">
+             
+              {/* <button className=" absolute bottom-0 left-0 rounded-tr-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition hover:bg-gray-200">
+              Schedule a Free Consultation
+            </button> */}
+            </div>
+          </div>
+        </section>
+         <div className="absolute backdrop-blur-md z-[50] bg-white/20 py-5 pl-8 pb-5 right-5 bottom-5 rounded-lg">
                 <p className="mt-4 max-w-xl  mb-4 text-base md:text-lg">
                   We transform visions into timeless architecture, blending
                   innovative design with functional excellence.
@@ -56,13 +79,8 @@ export default function Hero1() {
                   Contact Us
                 </button>
               </div>
-              {/* <button className=" absolute bottom-0 left-0 rounded-tr-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition hover:bg-gray-200">
-              Schedule a Free Consultation
-            </button> */}
-            </div>
-          </div>
-        </section>
       </div>
+
     </div>
   );
 }
