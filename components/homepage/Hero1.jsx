@@ -39,9 +39,9 @@ export default function Hero1() {
           {/* Content */}
           <div className="relative z-10 flex h-screen justify-center items-center">
             <div className=" max-w-5xl flex justify-center items-center flex-col  px-6 md:px-16">
-              <h1 className="text-4xl text-center pb-50 font-bold md:text-7xl text-gray-800 font-[Bodoni_Moda] leading-tight">
-                Designing Spaces <br/>
-                That <span className="italic text-white">Inspire & Endure</span>
+              <h1 className="text-6xl text-center pb-50 font-bold md:text-7xl text-gray-800 font-[Bodoni_Moda] leading-tight">
+                Designing Spaces <br className="block max-lg:hidden"/>
+                That <span className="italic max-lg:text-4xl text-white">Inspire & Endure</span>
               </h1>
 
              <div className="absolute backdrop-blur-md z-50 bg-white/20 py-5 pl-8 pb-5 right-5 bottom-5 rounded-lg">

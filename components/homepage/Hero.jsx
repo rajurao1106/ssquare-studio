@@ -25,7 +25,7 @@ export default function Hero() {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-black/40" />
 
           {/* Content */}
           <div className="relative z-10 flex h-screen justify-center items-center">

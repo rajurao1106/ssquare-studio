@@ -39,7 +39,7 @@ const About1 = () => {
           >
             <h1 className=" relative py-10  font-light tracking-widest items-end ">
               <p className="absolute text-6xl max-lg:text-5xl font-bold font-[Bodoni_Moda] text-[#E3C77A]">
-                Interior designs
+                Interior Designs
               </p>
               <p className="[writing-mode:vertical-lr] text-xs max-lg:text-[8px] h-[110%] text-right py-10 max-lg:py-8">
                 https://www.ssquarestudio.com
@@ -63,13 +63,13 @@ const About1 = () => {
               About Us
             </span> */}
             <h1 className="text-4xl font-[Bodoni_Moda] font-bold md:text-6xl leading-tight">
-              <p className="text-right">Creative Vision </p>
+              <p className="text-right">Inspiration For </p>
               <p className="text-right">
                 {" "}
-                <p className="italic text-[#E3C77A]"> Thoughtful </p>
+                <p className="italic text-[#E3C77A]"> Beautiful </p>
                 {/* <p className="right-60 relative">Meets</p> */}
               </p>
-              <p className="max-lg:text-center"> Mordern Design</p>
+              <p className="max-lg:text-center"> Interior Designs</p>
             </h1>
             <p className="text-gray-400 leading-relaxed max-w-md">
               Give your home a new look with these interior design ideas curated
