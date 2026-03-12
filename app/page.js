@@ -4,7 +4,7 @@ import CTA from "@/components/homepage/CTA";
 import Hero from "@/components/homepage/Hero";
 import Hero1 from "@/components/homepage/Hero1";
 import HowItWorks from "@/components/homepage/HowItWorks";
-import InteriorInspiration from "@/components/homepage/InteriorInspiration";
+import InteriorInspiration from "@/components/homepage/Projects";
 
 import ServicesStackSection from "@/components/homepage/Services";
 import React from "react";

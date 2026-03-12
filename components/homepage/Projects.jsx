@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const InteriorInspiration = () => {
+const Projects = () => {
   // State to store the URL of the image to be shown in the modal
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -44,8 +44,8 @@ const InteriorInspiration = () => {
       {/* Header Section */}
       <div className="flex flex-col px-8 max-lg:px-4 md:flex-row justify-between items-start md:items-center mb-10 gap-4">
         <div>
-          <h2 className="text-5xl max-lg:text-4xl mb-4 font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-tight">
-            Inspiration for home <br className="hidden lg:block"/> interior designs
+          <h2 className="text-6xl max-lg:text-4xl leading-tight mb-4 font-[Bodoni_Moda] font-extrabold text-slate-900 tracking-wide">
+            Inspiration For Home <br className="hidden lg:block"/> Interior Designs
           </h2>
           <p className="text-gray-500 text-base mb-4 font-light">
             Give your home a new look with these interior design ideas curated for you
@@ -101,4 +101,4 @@ const InteriorInspiration = () => {
   );
 };
 
-export default InteriorInspiration;
+export default Projects;
