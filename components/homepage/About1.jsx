@@ -31,7 +31,7 @@ const About1 = () => {
   ];
 
   return (
-    <div className=" p-4 py-20 bg-[#F6F6F4] font-sans">
+    <div className=" p-4 py-20  font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 max-lg:gap-8 items-center">
         <div className="lg:col-span-6 grid grid-cols-1 gap-2 h-[400px] md:h-[550px]">
           <div

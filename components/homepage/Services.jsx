@@ -16,12 +16,19 @@ const services = [
     desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
   },
-  {
+     {
     step: "03",
-    title: "Interior Design & 3D Visualization",
-    desc: "Not sure where to start? Our experts provide professional guidance to kickstart your renovation journey.",
+    title: "Turnkey Execution Projects",
+    desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
   },
+  {
+    step: "04",
+    title: "Interior Design & 3D Visualization",
+    desc: "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200",
+  },
+ 
 ];
 
 const ServiceCard = ({ service, index, progress, range, targetScale, isMobile }) => {
@@ -90,7 +97,7 @@ export default function ServicesStackSection() {
   });
 
   return (
-    <div ref={container} className="relative ">
+    <div ref={container} className="relative bg-[#F6F6F4]">
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
         <h2 className="text-4xl font-[Bodoni_Moda] md:text-6xl font-bold text-[#2D2D2D] leading-tight">
