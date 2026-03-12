@@ -57,7 +57,7 @@ const About1 = () => {
         </div>
 
         {/* Left Side: About & Stats */}
-        <div className="lg:col-span-5 space-y-8 px-2">
+        <div className="lg:col-span-5 space-y-8 ">
           <div className="space-y-4">
             {/* <span className="text-gray-400 text-sm tracking-widest uppercase">
               About Us

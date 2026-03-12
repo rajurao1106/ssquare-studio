@@ -34,7 +34,7 @@ export default function Hero1() {
             priority
             className="object-cover max-lg:hidden z-50"
           />
-           <Image
+          <Image
             src={hero1_copy}
             alt="Modern Architecture"
             fill
@@ -63,24 +63,22 @@ export default function Hero1() {
                 </span>
               </h1>
 
-             
               {/* <button className=" absolute bottom-0 left-0 rounded-tr-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition hover:bg-gray-200">
               Schedule a Free Consultation
             </button> */}
             </div>
           </div>
         </section>
-         <div className="absolute backdrop-blur-md z-[50] bg-white/20 py-5 pl-8 pb-5 right-5 bottom-5 rounded-lg">
-                <p className="mt-4 max-w-xl  mb-4 text-base md:text-lg">
-                  We transform visions into timeless architecture, blending
-                  innovative design with functional excellence.
-                </p>
-                <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3  transition-all duration-300 shadow-lg">
-                  Contact Us
-                </button>
-              </div>
+        <div className="absolute backdrop-blur-md z-[50] bg-white/20 py-5 pl-8 pb-5 right-5 bottom-5 rounded-lg">
+          <p className="mt-4 max-w-xl  mb-4 text-base md:text-lg">
+            We transform visions into timeless architecture, blending innovative
+            design with functional excellence.
+          </p>
+          <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3  transition-all duration-300 shadow-lg">
+            Contact Us
+          </button>
+        </div>
       </div>
-
     </div>
   );
 }
