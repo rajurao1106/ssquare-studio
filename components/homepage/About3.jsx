@@ -59,18 +59,17 @@ const About3 = () => {
         {/* Left Side: About & Stats */}
         <div className="lg:col-span-5 space-y-8 ">
           <div className="space-y-4">
-            <span className="text-gray-400  text-sm tracking-widest uppercase">
+            {/* <span className="text-gray-400  text-sm tracking-widest uppercase">
               About Us
-            </span>
+            </span> */}
             <br />
             <br />
-            <h1 className="text-4xl font-[Bodoni_Moda]  md:text-7xl leading-16 ">
+            <h1 className="text-5xl font-[Bodoni_Moda] md:text-7xl leading-16 ">
               <p>The Inspiration</p>
-              <p className="left-50 relative">Beautiful</p>
-              <p className="italic left-16 font-[Playfair_Displa]  relative text-[#E3C77A]">
+              <span className="left-50 max-lg:left-34 relative">Beautiful</span><br />
+              <span className="italic left-16 max-lg:left-10 font-[Playfair_Displa] relative text-[#E3C77A]">
                 Interior Design
-              </p>
-              {/* <p>WEARS</p> */}
+              </span>
             </h1>
             <p className="text-gray-400 font-[Playfair_Displa]  leading-relaxed ">
               Lorem Ipsum has been the industry’s standard dummy text ever since
