@@ -51,7 +51,7 @@ const About3 = () => {
               priority
               src={about}
               alt={""}
-              className="w-full h-full object-cover transition-transform duration-700 "
+              className="w-full h-full border border-gray-300 p-2 object-cover transition-transform duration-700 "
             />
           </div>
         </div>
