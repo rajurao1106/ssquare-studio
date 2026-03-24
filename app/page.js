@@ -1,5 +1,7 @@
 import About from "@/components/homepage/About";
 import About1 from "@/components/homepage/About1";
+import About2 from "@/components/homepage/About2";
+import About3 from "@/components/homepage/About3";
 import CTA from "@/components/homepage/CTA";
 import CTA2 from "@/components/homepage/CTA2";
 import Hero from "@/components/homepage/Hero";
@@ -18,6 +20,8 @@ export default function page() {
       <Hero1/>
       {/* <About/> */}
       <About1/>
+      <About2/>
+      <About3/>
       <ServicesStackSection/>
       <Service2/>
       <InteriorInspiration/>

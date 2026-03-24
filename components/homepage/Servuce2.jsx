@@ -82,11 +82,11 @@ const Service2 = () => {
                 <p className="text-gray-600 leading-relaxed ">
                   {service.description}
                 </p>
-                   <div className="mt-8">
-        <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3 transition-all duration-300 shadow-lg">
-          Know More
-        </button>
-      </div>
+                <div className="mt-8">
+                  <button className="bg-[#8FAF9A] hover:bg-[#7a9985] text-white px-8 py-3 transition-all duration-300 shadow-lg">
+                    Know More
+                  </button>
+                </div>
               </div>
             </div>
 
@@ -122,7 +122,6 @@ const Service2 = () => {
       </div>
 
       {/* CTA Button */}
-   
     </section>
   );
 };
