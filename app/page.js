@@ -17,10 +17,10 @@ export default function page() {
   return (
     <main>
       <Hero />
-      <Hero1/>
+      {/* <Hero1/> */}
       {/* <About/> */}
-      <About1/>
-      <About2/>
+      {/* <About1/>
+      <About2/> */}
       <About3/>
       <ServicesStackSection/>
       <Service2/>
